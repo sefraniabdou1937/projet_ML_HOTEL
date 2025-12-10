@@ -1,7 +1,6 @@
 # 🏨 AI Hotel Recommender
 Une application intelligente de recommandation d'hôtels alimentée par le Machine Learning. Ce projet utilise une approche hybride combinant l'analyse sémantique (NLP) des avis clients et un modèle prédictif XGBoost pour suggérer les établissements les plus adaptés au profil de chaque voyageur.
 
-🔗 [Insérer le lien de votre application Streamlit ici]
 
 🚀 Fonctionnalités Clés
 Moteur de Recommandation Personnalisé : Suggère les meilleurs hôtels en fonction du type de voyage (Solo, Couple, Famille, Affaires), de la durée du séjour et de la destination.
@@ -59,9 +58,9 @@ modele_hotel_xgboost.pkl : Le modèle XGBoost entraîné et sauvegardé.
 
 vectorizer_tfidf.pkl : Le vectoriseur TF-IDF pour le traitement du texte.
 
-requirements.txt : Liste de toutes les bibliothèques Python nécessaires.
+requirements.txt : Liste de toutes les bibliothèques Python néces saires.
 
-Hotel_Reviews.zip (Non inclus/À télécharger) : Le dataset source (voir ci-dessous).
+Hotel_Reviews.zip (Non inclus/À télécharger) : Le dataset source .
 
 🧠 À propos du Modèle
 Le modèle a été entraîné sur le dataset "515K Hotel Reviews Data in Europe" (Source : Kaggle).
@@ -73,6 +72,5 @@ Algorithme : XGBoost Classifier optimisé.
 Performance : Précision (Accuracy) supérieure à 80% sur le jeu de test.
 
 📝 Données
-Le projet nécessite le fichier de données Hotel_Reviews.csv. Pour des raisons de taille, il peut être nécessaire de le télécharger manuellement depuis Kaggle si le fichier zip n'est pas présent : Lien vers le dataset Kaggle
+Le projet nécessite le fichier de données Hotel_Reviews.csv. Pour des raisons de taille, il peut être nécessaire de le télécharger manuellement depuis Kaggle si le fichier zip n'est pas présent https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
 
-Développé par Abderrahmane Sefrani.
